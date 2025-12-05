@@ -41,6 +41,29 @@ npm run dev
 
 The API will be available at `http://localhost:3000`
 
+### Testing
+
+Test all endpoints with the comprehensive test script:
+
+```bash
+./test-api.sh
+```
+
+Or use individual example scripts in the `examples/` directory:
+
+```bash
+# Create a task
+./examples/create-task.sh "Write documentation" "medium"
+
+# Get a random task (the YOLO way!)
+./examples/get-next.sh
+
+# View your stats
+./examples/get-stats.sh
+```
+
+See [examples/README.md](examples/README.md) for more details.
+
 ## API Endpoints
 
 ### Health Check
